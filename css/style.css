@@ -1,3 +1,113 @@
-.section1 { 
-    background-color: red;
+#container {
+    position: relative;
+    width: 100%;
+}
+
+#section1 { 
+	height: 100%;
+}
+
+header {
+	background-color: black;
+	height: 70px;
+	width: 100%;
+	line-height: 70px;
+	border: solid 1px red;
+}
+
+.hamburger{
+  background:none;
+  position:absolute;
+  top:0;
+  right:0;
+  line-height:45px;
+  padding:0px 15px 0px 15px;
+  color:#fff;
+  border:0;
+  font-size:1.4em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+
+.cross{
+  background:none;
+  position:absolute;
+  top:0px;
+  right:0;
+  padding:8px 15px 0px 15px;
+  color:#fff;
+  border:0;
+  font-size:3em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+
+.menu {
+	z-index:1000000; 
+	font-weight:bold; 
+	font-size:0.8em; 
+	width:100%; 
+	background:#131313;  
+	position:absolute; text-align:left;
+	padding-left: 20%;
+}
+
+.menu ul {
+	margin: 0; 
+	padding: 0; 
+	list-style-type: none; 
+	list-style-image: none;
+}
+
+.menu li {
+	display: block;   
+	padding:15px 0 15px 0; 
+}
+
+.menu li:hover {
+	display: block;    
+	background:#181818; 
+	padding:15px 0 15px 0; 
+}
+
+.menu ul li a { 
+	text-decoration:none;  
+	margin: 0px; 
+	color:#fff;}
+
+.menu ul li a:hover {  
+	color: #fff; 
+	text-decoration:none;
+}
+
+.menu a {
+	text-decoration:none; 
+	color:white;}
+
+.menu a:hover {
+	text-decoration:none; 
+	color:white;}
+
+#video {
+	height: 200px;
+	border: solid 10px;
+}
+
+#intro1 {
+	width: 50%;
+	margin-left: 30%;
+	border: solid 1px;
+	text-align: center;
+	display: inline-block;
+}
+
+#gallery {
+	width: 100%;
+	height: 200px;
+	border: solid 1px;
 }
