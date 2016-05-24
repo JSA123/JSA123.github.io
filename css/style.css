@@ -1,3 +1,10 @@
+body {
+  font-family: 'Noto Sans', sans-serif;
+	margin:0;
+  background: url(../images/clouds_05.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+
 #container {
     position: relative;
     width: 100%;
@@ -9,10 +16,9 @@
 
 header {
 	background-color: black;
-	height: 70px;
+	height: 60px;
 	width: 100%;
 	line-height: 70px;
-	border: solid 1px red;
 }
 
 .hamburger{
@@ -21,7 +27,7 @@ header {
   top:0;
   right:0;
   line-height:45px;
-  padding:0px 15px 0px 15px;
+  padding:3px 15px 0px 15px;
   color:#fff;
   border:0;
   font-size:1.4em;
@@ -30,13 +36,12 @@ header {
   outline:none;
   z-index:10000000000000;
 }
-
 .cross{
   background:none;
   position:absolute;
   top:0px;
   right:0;
-  padding:8px 15px 0px 15px;
+  padding:11px 15px 0px 15px;
   color:#fff;
   border:0;
   font-size:3em;
@@ -50,11 +55,14 @@ header {
 .menu {
 	z-index:1000000; 
 	font-weight:bold; 
-	font-size:0.8em; 
+	font-size:0.95em; 
 	width:100%; 
 	background:#131313;  
 	position:absolute; text-align:left;
-	padding-left: 20%;
+	padding-left: 15%;
+	padding-top: 2.5%;
+	padding-bottom: 3%;
+	border-top: solid 3px #cf4a2a;
 }
 
 .menu ul {
@@ -98,9 +106,24 @@ header {
 	border: solid 10px;
 }
 
+#mainpic {
+	height: 300px;
+	border: solid 1px;
+}
+
+h1 {
+	color: white;
+	text-shadow: 1px 1px black;
+}
+
+h2 {
+	color: white;
+	text-shadow: 1px 1px black;
+}
+
 #intro1 {
-	width: 50%;
-	margin-left: 30%;
+	width: 65%;
+	margin-left: 17.5%;
 	border: solid 1px;
 	text-align: center;
 	display: inline-block;
