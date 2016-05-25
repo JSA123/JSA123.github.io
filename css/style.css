@@ -1,7 +1,7 @@
 body {
   font-family: 'Noto Sans', sans-serif;
 	margin:0;
-  background: url(../images/sky_02.jpg) no-repeat;
+  background: url(../images/sky_09.jpg) no-repeat;
   background-size: 100% 100%;
 }
 
@@ -62,7 +62,7 @@ header {
 	padding-left: 15%;
 	padding-top: 2.5%;
 	padding-bottom: 3%;
-	border-top: solid 3px #cf4a2a;
+	border-top: solid 3px #154180;
 }
 
 .menu ul {
@@ -107,18 +107,35 @@ header {
 }
 
 #mainpic {
-	height: 300px;
+	display: flex;
+    align-items: center;
+	height: 500px;
+	width: 100%;
 	border: solid 1px;
 }
 
+#globe {
+	display: inline-block; 
+    height: auto; 
+    width: auto; 
+    max-width: 100%; 
+    max-height: 500px;  
+    padding-top: 10px;
+    margin: auto;
+}
+
 h1 {
+	font-family: 'rockwell';
 	color: white;
 	text-shadow: 1px 1px black;
+	font-size: 3vw;
 }
 
 h2 {
+	font-family: 'rockwell';
 	color: white;
 	text-shadow: 1px 1px black;
+	font-size: 2vw;
 }
 
 #intro1 {
@@ -129,8 +146,28 @@ h2 {
 	display: inline-block;
 }
 
+#button1 {
+	display: block;
+	padding: 15px;
+	border-radius: 45px
+	font-size: 20px;
+	color: white;
+	width: 180px;
+	border: none;
+	background-color: #FCD835;
+	margin: 0 auto;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#entryForm {
+  display: none;
+  border: solid 1px;
+}  
+
 #gallery {
 	width: 100%;
 	height: 200px;
 	border: solid 1px;
 }
+
