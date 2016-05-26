@@ -1,7 +1,7 @@
 body {
   font-family: 'Noto Sans', sans-serif;
 	margin:0;
-  background: url(../images/sky_09.jpg) no-repeat;
+  background: url(../images/sky_02.jpg) no-repeat;
   background-size: 100% 100%;
 }
 
@@ -128,14 +128,14 @@ h1 {
 	font-family: 'rockwell';
 	color: white;
 	text-shadow: 1px 1px black;
-	font-size: 3vw;
+	font-size: 32px;
 }
 
 h2 {
 	font-family: 'rockwell';
 	color: white;
 	text-shadow: 1px 1px black;
-	font-size: 2vw;
+	font-size: 24px;
 }
 
 #intro1 {
@@ -158,12 +158,89 @@ h2 {
 	margin: 0 auto;
 	text-decoration: none;
 	cursor: pointer;
+	font-weight: bold;
+	font-size: 18px;
 }
 
 #entryForm {
   display: none;
   border: solid 1px;
+  width: 65%;
+  margin-left: 17.5%;
 }  
+
+#contact-form {
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 10px;
+  margin: 5px;
+  border: 1px solid #ACADAD;
+  border-radius: 2px;
+}
+
+label {
+  font-family: Arial;
+  font-size: 15px;
+}
+
+#submit-button {
+  display: block;
+	padding: 10px;
+	border-radius: 45px
+	font-size: 20px;
+	color: white;
+	width: 180px;
+	border: none;
+	background-color: #FCD835;
+	margin: 0 auto;
+	text-decoration: none;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#firstname {
+  width: 38.5%;
+  float: left;
+  display: inline-block;
+  margin-left: 10px;
+  clear: both;
+}
+
+#lastname {
+  width: 38.5%;
+  margin-left: 10px;
+  clear: both;
+}
+
+#email {
+  width: 81.7%;
+  margin-left: 10px;
+  display: block;
+  clear: both;
+}
+
+#upload {
+  display: inline-block;
+  margin-left: 10px;
+  border: 0;
+}
+
+p.photo{
+  font-family: Arial;
+  margin-left: 10px;
+  display: inline-block;
+  color: white;
+}
+
+#photo {
+  border: 0;
+}
 
 #gallery {
 	width: 100%;
