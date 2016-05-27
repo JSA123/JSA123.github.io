@@ -23,5 +23,4 @@ $('#button1').click(function(){
     $('#entryForm').fadeIn(500);
 })
 
-
 });
