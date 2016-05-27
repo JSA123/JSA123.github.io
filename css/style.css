@@ -140,6 +140,11 @@ h2 {
 	font-size: 24px;
 }
 
+#galleryHead {
+	height: 110px;
+	background-color: white;
+}
+
 #intro1 {
 	width: 65%;
 	margin-left: 17.5%;
