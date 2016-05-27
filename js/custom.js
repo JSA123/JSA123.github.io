@@ -17,10 +17,11 @@ $( ".hamburger" ).show();
 });
 });
 
+
 $('#button1').click(function(){
 	button1.style.display = 'none';
-    $('#entryForm').slideToggle(2000);
-    $("#button1").delay(2000).fadeOut(150);
+    $('#entryForm').show();
 })
+
 
 });

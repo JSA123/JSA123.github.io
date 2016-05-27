@@ -5,6 +5,10 @@ body {
   background-size: 100% 100%;
 }
 
+.clearfix {
+  overflow: auto;
+}
+
 #container {
     position: relative;
     width: 100%;
@@ -111,7 +115,6 @@ header {
     align-items: center;
 	height: 550px;
 	width: 100%;
-	border: solid 1px;
 }
 
 #globe {
@@ -141,7 +144,6 @@ h2 {
 #intro1 {
 	width: 65%;
 	margin-left: 17.5%;
-	border: solid 1px;
 	text-align: center;
 	display: inline-block;
 }
@@ -164,7 +166,6 @@ h2 {
 
 #entryForm {
   display: none;
-  border: solid 1px;
   width: 65%;
   margin-left: 17.5%;
 }  
@@ -172,7 +173,7 @@ h2 {
 #contact-form {
     width: 100%;
     padding: 5px;
-    margin-top: 10px;
+    display: block;
 }
 
 input {
@@ -181,6 +182,8 @@ input {
   margin: 5px;
   border: 1px solid #ACADAD;
   border-radius: 2px;
+  display: block;
+  width: 50%;
 }
 
 label {
@@ -189,8 +192,8 @@ label {
 }
 
 #submit-button {
-  display: block;
-	padding: 10px;
+	display: block;
+	padding: 15px;
 	border-radius: 45px
 	font-size: 20px;
 	color: white;
@@ -205,22 +208,19 @@ label {
 }
 
 #firstname {
-  width: 38.5%;
+  width: 100%;
   float: left;
   display: inline-block;
-  margin-left: 10px;
   clear: both;
 }
 
 #lastname {
-  width: 38.5%;
-  margin-left: 10px;
+  width: 100%;
   clear: both;
 }
 
 #email {
-  width: 81.7%;
-  margin-left: 10px;
+  width: 100%;
   display: block;
   clear: both;
 }
@@ -231,7 +231,7 @@ label {
   border: 0;
 }
 
-p.photo{
+p.photo {
   font-family: Arial;
   margin-left: 10px;
   display: inline-block;
@@ -240,6 +240,15 @@ p.photo{
 
 #photo {
   border: 0;
+  display: inline-block;
+}
+
+.entries {
+	text-align: center;
+	font-family: 'rockwell';
+	color: white;
+	text-shadow: 1px 1px black;
+	font-size: 32px;
 }
 
 #gallery {
@@ -248,3 +257,18 @@ p.photo{
 	border: solid 1px;
 }
 
+#button3 {
+		display: block;
+	padding: 15px;
+	border-radius: 45px
+	font-size: 20px;
+	color: white;
+	width: 180px;
+	border: none;
+	background-color: #FCD835;
+	margin: 0 auto;
+	text-decoration: none;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 18px;
+}

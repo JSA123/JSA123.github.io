@@ -38,12 +38,12 @@
 
 <h1>
 HERE'S HOW IT WORKS:</h1><br>
-<h2>1. SNAP A PIC OF YOURSELF MAKING A DISCOVERY.
+<h2>1. SNAP A PIC OF YOURSELF MAKING A DISCOVERY
 <br><br>
-2. UPLOAD YOUR PIC IN THE ENTRY FORM BELOW.
+2. UPLOAD YOUR PIC IN THE ENTRY FORM BELOW
 <br><br>
-3. SHARE YOUR ENTRY AND VOTE. VOTING ENDS JUNE 30.</h2><br>
-<h1>THE PIC WITH THE MOST VOTES WINS! GOOD LUCK!
+3. SHARE YOUR ENTRY AND VOTE. VOTING ENDS JUNE 30</h2><br>
+<h1>THE MOST CREATIVE PIC WINS! GOOD LUCK!
 </h1>
 
 </div>
@@ -52,7 +52,6 @@ HERE'S HOW IT WORKS:</h1><br>
 
 <br>
 
-<button id="button1">ENTER NOW</button>
 <div id="entryForm">
 
 <div id="contact-form" class="clearfix">
@@ -64,19 +63,25 @@ HERE'S HOW IT WORKS:</h1><br>
          
         <input type="email" id="email" name="email" value="" placeholder="Email Address*" required="required" />
          
-      <p id="upload">Upload photo:</p><input type="file" id="photo" name="photo" value="" required="required" />
+      <p id="upload">Upload Photo:</p><input type="file" id="photo" name="photo" value="" required="required" />
+
+      <label id="terms"><input type="checkbox" required="required" />I accept the Terms and Conditions</label>
          
         <span id="loading"></span>
         <input type="submit" value="ENTER" id="submit-button" />
      
     </form>
-  
-</div>
-  
 </div>
 
+</div>
+<button id="button1">ENTER NOW</button>  
+
 <div id="gallery">
-<h2>GALLERY</h2>
+<h3 class="entries">ENTRIES</h2>
+
+<a href="lightbox-image.jpg" class="flipLightBox">Link Text or Image<span>Optional Lightbox Text</span></a>
+
+<button id="button3">SEE MORE</button>  
 
 </div>
 
@@ -87,5 +92,10 @@ HERE'S HOW IT WORKS:</h1><br>
 </div>
 
 </div>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script type="text/javascript" src="fliplightbox/fliplightbox.min.js"></script>
+<script type="text/javascript">$('body').flipLightBox()</script>
+
 </body>
 </html>
