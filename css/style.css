@@ -269,7 +269,7 @@ p.photo {
 	font-family: 'rockwell';
 	color: #275ca0;
 	font-size: 36px;
-	padding-top: 3px;
+	padding-top: 37px;
 }
 
 .entries2 {
@@ -283,13 +283,11 @@ p.photo {
 #gallery1 {
 	width: 100%;
 	background-color: white;
-	border: solid 1px red;
 }
 
 #gallery2 {
 	width: 100%;
 	background-color: white;
-	border: solid 1px red;
 }
 
 #button3 {
