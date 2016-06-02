@@ -20,7 +20,8 @@ $( ".hamburger" ).show();
 
 $('#button1').click(function(){
 	button1.style.display = 'none';
-    $('#entryForm').fadeIn(500);
+    $('#entryForm').fadeIn(1000);
 })
+
 
 });

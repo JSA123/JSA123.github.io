@@ -107,6 +107,22 @@ header {
 
 #video {
 	height: auto;
+	border-bottom: solid 3px #154180;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 25px;
+	height: 0;
+	border: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 
 #mainpic {
@@ -143,6 +159,7 @@ h2 {
 #galleryHead {
 	height: 110px;
 	background-color: white;
+	overflow: hidden;
 }
 
 #intro1 {
@@ -247,17 +264,32 @@ p.photo {
   display: inline-block;
 }
 
-.entries {
+.entries1 {
 	text-align: center;
 	font-family: 'rockwell';
 	color: #275ca0;
 	font-size: 36px;
-	padding-top: 33px;
+	padding-top: 3px;
 }
 
-#gallery {
+.entries2 {
+	text-align: center;
+	font-family: 'rockwell';
+	color: #275ca0;
+	font-size: 36px;
+	padding-bottom: 33px;
+}
+
+#gallery1 {
 	width: 100%;
 	background-color: white;
+	border: solid 1px red;
+}
+
+#gallery2 {
+	width: 100%;
+	background-color: white;
+	border: solid 1px red;
 }
 
 #button3 {
@@ -276,9 +308,14 @@ p.photo {
 	font-size: 18px;
 }
 
+#bottombutton {
+	height: 100px;
+	padding-top: 40px;
+}
+
 footer {
 	background-color: black;
-	height: 80px;
+	height: 100px;
 	width: 100%;
 }
 
